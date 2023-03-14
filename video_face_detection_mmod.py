@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-@author: abhilash
-"""
-
-#importing the required libraries
 import cv2
 import dlib
 
@@ -56,14 +50,4 @@ while True:
 #release the stream and cam
 #close all opencv windows open
 webcam_video_stream.release()
-cv2.destroyAllWindows()        
-
-
-
-
-
-
-
-
-
-
+cv2.destroyAllWindows()      
