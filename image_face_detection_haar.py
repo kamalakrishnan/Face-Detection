@@ -1,13 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-
-@author: abhilash
-"""
-#importing the required libraries
 import cv2
-
-
-#loading the image to detect
 image_to_detect = cv2.imread('images/testing/trump-modi.jpg')
 
 #load the pretrained haar classifier model
