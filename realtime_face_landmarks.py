@@ -1,8 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-@author: abhilash
-"""
-
 import face_recognition
 from PIL import Image, ImageDraw
 import numpy as np
