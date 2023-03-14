@@ -1,14 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-
-@author: abhi
-"""
-
-# install opencv-contrib using the command
-# pip install --user opencv-contrib-python
-
-
-#import the required libraries
 import cv2
 import numpy as np
 import os
