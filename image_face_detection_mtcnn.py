@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-
-@author: abhilash
-"""
-#importing the required libraries
 import cv2
 from mtcnn.mtcnn import MTCNN
 import matplotlib.pyplot as plt
