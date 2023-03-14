@@ -1,21 +1,9 @@
-# -*- coding: utf-8 -*-
-"""
-
-@author: abhi
-"""
-
-# install opencv-contrib using the command
-# pip install --user opencv-contrib-python
-
-
-#import the required libraries
 import cv2
 import numpy as np
 import os
 from sys import exit
 
 
-# function to detect face from image
 def face_detection(image_to_detect):
     #converting the image to grayscale since its required for eigen and fisher faces
     image_to_detect_gray = cv2.cvtColor(image_to_detect, cv2.COLOR_BGR2GRAY)
