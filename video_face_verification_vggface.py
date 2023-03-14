@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-
-@author: abhilash
-"""
-#importing the required libraries
 from mtcnn.mtcnn import MTCNN
 import matplotlib.pyplot as plt
 from PIL import Image
